@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "orgs-api"
+version = "0.1.0"
+description = ""
+authors = ["Viacheslav Beatum <podarkiprod@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = {extras = ["all"], version = "^0.115.12"}
+python-dotenv = "^1.1.0"
+loguru = "^0.7.3"
+sqlalchemy = "^2.0.41"
+alembic = "^1.15.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
